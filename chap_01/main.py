@@ -3,16 +3,7 @@ import sys
 from PyQt5 import uic, QtWidgets
 from PyQt5.QtWidgets import QApplication, QMainWindow
 
-from chap_01 import chap01
-
-class MyApp(QMainWindow):
-
-    def __init__(self):
-        super().__init__()
-        self.ui = uic.loadUi("chap01.ui")
-        self.ui.show()
-
-
+from chap_01.chap01 import MyApp
 
 if __name__ == '__main__':
     app = QtWidgets.QApplication(sys.argv)

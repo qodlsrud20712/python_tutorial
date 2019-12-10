@@ -4,7 +4,7 @@ import typing
 from PyQt5 import QtCore, uic, QtWidgets
 from PyQt5.QtWidgets import QApplication, QMainWindow, QWidget
 
-from pyqt import hello_pyqt5
+from basic import hello_pyqt5
 
 class MyApp(QMainWindow):
 

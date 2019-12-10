@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05e484d2-6d34-4a41-8b5f-435b123100ae" name="Default Changelist" comment="" />
+    <list default="true" id="05e484d2-6d34-4a41-8b5f-435b123100ae" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/icon_job.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap_02/userform.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap_01/chap01.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap_01/chap01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap_01/chap01.ui" beforeDir="false" afterPath="$PROJECT_DIR$/chap_01/chap01.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap_01/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap_01/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyqt/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/basic/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyqt/hello_pyqt5.py" beforeDir="false" afterPath="$PROJECT_DIR$/basic/hello_pyqt5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyqt/hello_pyqt5.ui" beforeDir="false" afterPath="$PROJECT_DIR$/basic/hello_pyqt5.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyqt/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/basic/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,9 +28,10 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../python_tutorial" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1UjEOPr8APbcYOL9nmVgnbKrIup" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -25,36 +39,22 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../python_tutorial" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/../python_tutorial/pyqt" />
+      <recent name="$PROJECT_DIR$/basic/img" />
+      <recent name="$PROJECT_DIR$/basic" />
+      <recent name="$PROJECT_DIR$/pyqt" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.hello.pyqt5 (1)">
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <module name="python_tutorial" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.icon_job">
     <configuration name="hello.pyqt5 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_tutorial" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -63,11 +63,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../python_tutorial/pyqt" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pyqt" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../python_tutorial/pyqt/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pyqt/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -76,7 +76,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="hello.pyqt5" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="icon_job" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_tutorial" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -84,11 +84,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/basic" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hello.pyqt5.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basic/icon_job.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -105,11 +105,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../python_tutorial/chap_01" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap_01" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../python_tutorial/chap_01/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap_01/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -126,11 +126,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../python_tutorial/chap01" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap01" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../python_tutorial/chap01/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap01/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -139,55 +139,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration default="true" type="Tox" factoryName="Tox">
+    <configuration name="userform" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_tutorial" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap_02" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Doctests">
-      <module name="python_tutorial" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Unittests">
-      <module name="python_tutorial" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap_02/userform.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.hello.pyqt5 (1)" />
+        <item itemvalue="Python.icon_job" />
+        <item itemvalue="Python.userform" />
         <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.hello.pyqt5 (1)" />
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.hello.pyqt5" />
       </list>
     </recent_temporary>
   </component>
@@ -214,43 +193,96 @@
       <option name="presentableId" value="Default" />
       <updated>1575861571546</updated>
     </task>
+    <task id="LOCAL-00001" summary="12.09 pyqt_tutorial">
+      <created>1575867390718</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575867390718</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="12.09 pyqt_tutorial" />
+    <option name="LAST_COMMIT_MESSAGE" value="12.09 pyqt_tutorial" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="801" y="271" width="374" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1575863500562">
+    <state x="801" y="271" width="374" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1575944168142">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="801" y="271" width="374" height="562" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1575863500562" />
-    <state x="771" y="293" width="435" height="518" key="FileChooserDialogImpl" timestamp="1575867363564">
+    <state x="801" y="271" width="374" height="562" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1575944168142" />
+    <state x="608" y="142" width="761" height="820" key="CommitChangelistDialog2" timestamp="1575867390660">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="771" y="293" width="435" height="518" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1575867363564" />
-    <state width="1826" height="275" key="GridCell.Tab.0.bottom" timestamp="1575867366666">
+    <state x="608" y="142" width="761" height="820" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1575867390660" />
+    <state x="771" y="293" width="435" height="518" key="FileChooserDialogImpl" timestamp="1575971526814">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1826" height="275" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1575867366666" />
-    <state width="1826" height="275" key="GridCell.Tab.0.center" timestamp="1575867366665">
+    <state x="771" y="293" width="435" height="518" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1575971526814" />
+    <state x="831" y="437" width="315" height="231" key="Github.ShareDialog" timestamp="1575867445552">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1826" height="275" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1575867366665" />
-    <state width="1826" height="275" key="GridCell.Tab.0.left" timestamp="1575867366664">
+    <state x="831" y="437" width="315" height="231" key="Github.ShareDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1575867445552" />
+    <state width="900" height="339" key="GridCell.Tab.0.bottom" timestamp="1575971545938">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1826" height="275" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1575867366664" />
-    <state width="1826" height="275" key="GridCell.Tab.0.right" timestamp="1575867366665">
+    <state width="900" height="339" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1575971545938" />
+    <state width="900" height="339" key="GridCell.Tab.0.center" timestamp="1575971545937">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1826" height="275" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1575867366665" />
+    <state width="900" height="339" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1575971545937" />
+    <state width="900" height="339" key="GridCell.Tab.0.left" timestamp="1575971545936">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="900" height="339" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1575971545936" />
+    <state width="900" height="339" key="GridCell.Tab.0.right" timestamp="1575971545938">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="900" height="339" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1575971545938" />
+    <state width="900" height="339" key="GridCell.Tab.1.bottom" timestamp="1575971545940">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="900" height="339" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1575971545940" />
+    <state width="900" height="339" key="GridCell.Tab.1.center" timestamp="1575971545939">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="900" height="339" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1575971545939" />
+    <state width="900" height="339" key="GridCell.Tab.1.left" timestamp="1575971545939">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="900" height="339" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1575971545939" />
+    <state width="900" height="339" key="GridCell.Tab.1.right" timestamp="1575971545940">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="900" height="339" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1575971545940" />
     <state x="482" y="187" key="SettingsEditor" timestamp="1575867350779">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="482" y="187" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1575867350779" />
+    <state x="588" y="287" width="800" height="531" key="Vcs.Push.Dialog.v2" timestamp="1575867400636">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="588" y="287" width="800" height="531" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1575867400636" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/../python_tutorial/pyqt/main.py</url>
+          <url>file://$PROJECT_DIR$/basic/main.py</url>
           <line>8</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>

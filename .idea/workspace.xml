@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05e484d2-6d34-4a41-8b5f-435b123100ae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/icon_job.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap_02/userform.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap_03/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap_03/dept_form.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap_03/push_radio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erp/erp_main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chap_01/chap01.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap_01/chap01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chap_01/chap01.ui" beforeDir="false" afterPath="$PROJECT_DIR$/chap_01/chap01.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chap_01/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap_01/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyqt/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/basic/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyqt/hello_pyqt5.py" beforeDir="false" afterPath="$PROJECT_DIR$/basic/hello_pyqt5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyqt/hello_pyqt5.ui" beforeDir="false" afterPath="$PROJECT_DIR$/basic/hello_pyqt5.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyqt/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/basic/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +34,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../coffee_project" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -54,8 +48,8 @@
       <recent name="$PROJECT_DIR$/pyqt" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.icon_job">
-    <configuration name="hello.pyqt5 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.dept_form">
+    <configuration name="department" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_tutorial" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -63,11 +57,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pyqt" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/erp" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pyqt/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/erp/department.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dept_form" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python_tutorial" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap_03" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap_03/dept_form.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -97,7 +112,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_tutorial" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -105,11 +120,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap_01" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/erp" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap_01/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/erp/erp_main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -118,7 +133,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="push_radio" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_tutorial" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -126,32 +141,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap01" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap_03" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap01/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="userform" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python_tutorial" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap_02" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap_02/userform.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap_03/push_radio.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -162,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.dept_form" />
+        <item itemvalue="Python.push_radio" />
+        <item itemvalue="Python.main (2)" />
+        <item itemvalue="Python.department" />
         <item itemvalue="Python.icon_job" />
-        <item itemvalue="Python.userform" />
-        <item itemvalue="Python.main (1)" />
-        <item itemvalue="Python.hello.pyqt5 (1)" />
-        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575867390718</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="12.10 pyqt 수업">
+      <created>1575971660792</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575971660792</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -218,41 +219,42 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="12.09 pyqt_tutorial" />
-    <option name="LAST_COMMIT_MESSAGE" value="12.09 pyqt_tutorial" />
+    <MESSAGE value="12.10 pyqt 수업" />
+    <option name="LAST_COMMIT_MESSAGE" value="12.10 pyqt 수업" />
   </component>
   <component name="WindowStateProjectService">
     <state x="801" y="271" width="374" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1575944168142">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="801" y="271" width="374" height="562" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1575944168142" />
-    <state x="608" y="142" width="761" height="820" key="CommitChangelistDialog2" timestamp="1575867390660">
+    <state x="608" y="142" width="761" height="820" key="CommitChangelistDialog2" timestamp="1575971660744">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="608" y="142" width="761" height="820" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1575867390660" />
-    <state x="771" y="293" width="435" height="518" key="FileChooserDialogImpl" timestamp="1575971526814">
+    <state x="608" y="142" width="761" height="820" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1575971660744" />
+    <state x="771" y="293" width="435" height="518" key="FileChooserDialogImpl" timestamp="1576109812595">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="771" y="293" width="435" height="518" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1575971526814" />
+    <state x="771" y="293" width="435" height="518" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1576109812595" />
     <state x="831" y="437" width="315" height="231" key="Github.ShareDialog" timestamp="1575867445552">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="831" y="437" width="315" height="231" key="Github.ShareDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1575867445552" />
-    <state width="900" height="339" key="GridCell.Tab.0.bottom" timestamp="1575971545938">
+    <state width="900" height="403" key="GridCell.Tab.0.bottom" timestamp="1576121121210">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="900" height="339" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1575971545938" />
-    <state width="900" height="339" key="GridCell.Tab.0.center" timestamp="1575971545937">
+    <state width="900" height="403" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1576121121210" />
+    <state width="900" height="403" key="GridCell.Tab.0.center" timestamp="1576121121209">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="900" height="339" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1575971545937" />
-    <state width="900" height="339" key="GridCell.Tab.0.left" timestamp="1575971545936">
+    <state width="900" height="403" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1576121121209" />
+    <state width="900" height="403" key="GridCell.Tab.0.left" timestamp="1576121121208">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="900" height="339" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1575971545936" />
-    <state width="900" height="339" key="GridCell.Tab.0.right" timestamp="1575971545938">
+    <state width="900" height="403" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1576121121208" />
+    <state width="900" height="403" key="GridCell.Tab.0.right" timestamp="1576121121210">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="900" height="339" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1575971545938" />
+    <state width="900" height="403" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1576121121210" />
     <state width="900" height="339" key="GridCell.Tab.1.bottom" timestamp="1575971545940">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -273,10 +275,14 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="482" y="187" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1575867350779" />
-    <state x="588" y="287" width="800" height="531" key="Vcs.Push.Dialog.v2" timestamp="1575867400636">
+    <state x="374" y="462" width="302" height="180" key="VCS.ChangelistChooser" timestamp="1576118767370">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="588" y="287" width="800" height="531" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1575867400636" />
+    <state x="374" y="462" width="302" height="180" key="VCS.ChangelistChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1576118767370" />
+    <state x="588" y="287" width="800" height="531" key="Vcs.Push.Dialog.v2" timestamp="1575971665280">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="588" y="287" width="800" height="531" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1575971665280" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

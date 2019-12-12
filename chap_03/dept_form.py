@@ -1,7 +1,7 @@
 import sys
 
 from PyQt5 import uic, QtWidgets
-from PyQt5.QtCore import Qt
+from PyQt5.QtCore import Qt, QDataStream
 from PyQt5.QtWidgets import QWidget, QAbstractItemView, QHeaderView, QTableWidgetItem, QAction, QMessageBox
 
 
@@ -52,14 +52,14 @@ class Dept_form(QWidget):
         delete_action.triggered.connect(self.__delete)
 
     def __update(self):
-        item_no, item_name, item_floor = self.get_item_form_le()
         selectionIdxs = self.ui.tableWidget.selectedIndexes()[0]
-        # print(selectionIdxs.row())
-        self.ui.tableWidget.setItem(selectionIdxs.row(), 0, item_no)
-        self.ui.tableWidget.setItem(selectionIdxs.row(), 1, item_name)
-        self.ui.tableWidget.setItem(selectionIdxs.row(), 2, item_floor)
-        self.init_item()
-        QMessageBox.information(self, 'Update', '확인', QMessageBox.Ok)
+        returnIdxs1 = self.ui.tableWidget.item(selectionIdxs.row(),0).text()
+        returnIdxs2 = self.ui.tableWidget.item(selectionIdxs.row(), 1).text()
+        returnIdxs3 = self.ui.tableWidget.item(selectionIdxs.row(), 2).text()
+        self.ui.le_deptno.setText(returnIdxs1)
+        self.ui.le_deptname.setText(returnIdxs2)
+        self.ui.le_floor.setText(returnIdxs3)
+        # self.init_item()
 
     def __delete(self):
         selectionIdxs = self.ui.tableWidget.selectedIndexes()[0]
@@ -79,7 +79,7 @@ class Dept_form(QWidget):
         no = self.ui.le_deptno.text()
         name = self.ui.le_deptname.text()
         floor = self.ui.le_floor.text()
-        return self.create_item(floor, name, no)
+        return self.create_item(no, name, floor)
 
     def create_item(self, floor, name, no):
         item_no = QTableWidgetItem()
@@ -101,6 +101,7 @@ class Dept_form(QWidget):
         self.ui.tableWidget.setItem(selectionIdxs.row(), 1, item_name)
         self.ui.tableWidget.setItem(selectionIdxs.row(), 2, item_floor)
         self.init_item()
+        QMessageBox.information(self, 'Update', '확인', QMessageBox.Ok)
 
     def del_item(self):
         selectionIdxs = self.ui.tableWidget.selectedIndexes()[0]

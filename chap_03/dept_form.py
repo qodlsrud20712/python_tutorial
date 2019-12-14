@@ -5,20 +5,24 @@ from PyQt5.QtCore import Qt, QDataStream
 from PyQt5.QtWidgets import QWidget, QAbstractItemView, QHeaderView, QTableWidgetItem, QAction, QMessageBox
 
 
+def create_table(table=None, data=None):
+    table.setHorizontalHeaderLabels(data)
+    # row단위선택
+    table.setSelectionBehavior(QAbstractItemView.SelectRows)
+    # 수정불가
+    table.setEditTriggers(QAbstractItemView.NoEditTriggers)
+    # 균일 간격 재배치
+    table.horizontalHeader().setSectionResizeMode(QHeaderView.Stretch)
+    return table
+
+
 class Dept_form(QWidget):
 
     def __init__(self):
         super().__init__()
         self.ui = uic.loadUi("deptform.ui")
-        self.ui.tableWidget.setHorizontalHeaderLabels(['부서번호', '부서명', '위치'])
-        # row단위선택
-        self.ui.tableWidget.setSelectionBehavior(QAbstractItemView.SelectRows)
-        # 수정불가
-        self.ui.tableWidget.setEditTriggers(QAbstractItemView.NoEditTriggers)
-        # 균일 간격 재배치
-        self.ui.tableWidget.horizontalHeader().setSectionResizeMode(QHeaderView.Stretch)
-        # self.tbl_widget = self.ui.table_widget
 
+        self.table = create_table(table=self.ui.tableWidget, data=['부서번호', '부서명', '위치'])
         # slot/signal
         self.ui.btn_add.clicked.connect(self.add_item)
         self.ui.btn_update.clicked.connect(self.update_item)
@@ -53,7 +57,7 @@ class Dept_form(QWidget):
 
     def __update(self):
         selectionIdxs = self.ui.tableWidget.selectedIndexes()[0]
-        returnIdxs1 = self.ui.tableWidget.item(selectionIdxs.row(),0).text()
+        returnIdxs1 = self.ui.tableWidget.item(selectionIdxs.row(), 0).text()
         returnIdxs2 = self.ui.tableWidget.item(selectionIdxs.row(), 1).text()
         returnIdxs3 = self.ui.tableWidget.item(selectionIdxs.row(), 2).text()
         self.ui.le_deptno.setText(returnIdxs1)
@@ -69,10 +73,10 @@ class Dept_form(QWidget):
     def add_item(self):
         item_no, item_name, item_floor = self.get_item_form_le()
         currentIdx = self.ui.tableWidget.rowCount()
-        self.ui.tableWidget.insertRow(currentIdx)
-        self.ui.tableWidget.setItem(currentIdx, 0, item_no)
-        self.ui.tableWidget.setItem(currentIdx, 1, item_name)
-        self.ui.tableWidget.setItem(currentIdx, 2, item_floor)
+        self.table.insertRow(currentIdx)
+        self.table.setItem(currentIdx, 0, item_no)
+        self.table.setItem(currentIdx, 1, item_name)
+        self.table.setItem(currentIdx, 2, item_floor)
         self.init_item()
 
     def get_item_form_le(self):

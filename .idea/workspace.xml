@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05e484d2-6d34-4a41-8b5f-435b123100ae" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/chap_03/lambda_use_main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chap_03/dept_form.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap_03/dept_form.py" afterDir="false" />
     </list>
@@ -87,7 +88,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="icon_job" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="lambda_use_main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_tutorial" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -95,11 +96,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/basic" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap_03" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basic/icon_job.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap_03/lambda_use_main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -153,10 +154,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.dept_form" />
+        <item itemvalue="Python.lambda_use_main" />
         <item itemvalue="Python.push_radio" />
         <item itemvalue="Python.main (2)" />
         <item itemvalue="Python.department" />
-        <item itemvalue="Python.icon_job" />
       </list>
     </recent_temporary>
   </component>
@@ -204,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576121174898</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="12.12 dept_form 수업 수정">
+      <created>1576127540425</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1576127540425</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -224,57 +232,58 @@
     <MESSAGE value="12.09 pyqt_tutorial" />
     <MESSAGE value="12.10 pyqt 수업" />
     <MESSAGE value="12.12 dept_form 수업 완료" />
-    <option name="LAST_COMMIT_MESSAGE" value="12.12 dept_form 수업 완료" />
+    <MESSAGE value="12.12 dept_form 수업 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="12.12 dept_form 수업 수정" />
   </component>
   <component name="WindowStateProjectService">
     <state x="801" y="271" width="374" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1575944168142">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="801" y="271" width="374" height="562" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1575944168142" />
-    <state x="608" y="142" width="761" height="820" key="CommitChangelistDialog2" timestamp="1576121174818">
+    <state x="608" y="142" width="761" height="820" key="CommitChangelistDialog2" timestamp="1576127540382">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="608" y="142" width="761" height="820" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1576121174818" />
-    <state x="771" y="293" width="435" height="518" key="FileChooserDialogImpl" timestamp="1576109812595">
+    <state x="608" y="142" width="761" height="820" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1576127540382" />
+    <state x="771" y="293" width="435" height="518" key="FileChooserDialogImpl" timestamp="1576199768053">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="771" y="293" width="435" height="518" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1576109812595" />
+    <state x="771" y="293" width="435" height="518" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1576199768053" />
     <state x="831" y="437" width="315" height="231" key="Github.ShareDialog" timestamp="1575867445552">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="831" y="437" width="315" height="231" key="Github.ShareDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1575867445552" />
-    <state width="1826" height="403" key="GridCell.Tab.0.bottom" timestamp="1576127527531">
+    <state width="900" height="402" key="GridCell.Tab.0.bottom" timestamp="1576312023390">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1826" height="403" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1576127527531" />
-    <state width="1826" height="403" key="GridCell.Tab.0.center" timestamp="1576127527530">
+    <state width="900" height="402" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1576312023390" />
+    <state width="900" height="402" key="GridCell.Tab.0.center" timestamp="1576312023389">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1826" height="403" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1576127527530" />
-    <state width="1826" height="403" key="GridCell.Tab.0.left" timestamp="1576127527529">
+    <state width="900" height="402" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1576312023389" />
+    <state width="900" height="402" key="GridCell.Tab.0.left" timestamp="1576312023389">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1826" height="403" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1576127527529" />
-    <state width="1826" height="403" key="GridCell.Tab.0.right" timestamp="1576127527530">
+    <state width="900" height="402" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1576312023389" />
+    <state width="900" height="402" key="GridCell.Tab.0.right" timestamp="1576312023390">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1826" height="403" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1576127527530" />
-    <state width="1826" height="339" key="GridCell.Tab.1.bottom" timestamp="1576126349165">
+    <state width="900" height="402" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1576312023390" />
+    <state width="1826" height="339" key="GridCell.Tab.1.bottom" timestamp="1576134829321">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1826" height="339" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1576126349165" />
-    <state width="1826" height="339" key="GridCell.Tab.1.center" timestamp="1576126349165">
+    <state width="1826" height="339" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1576134829321" />
+    <state width="1826" height="339" key="GridCell.Tab.1.center" timestamp="1576134829320">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1826" height="339" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1576126349165" />
-    <state width="1826" height="339" key="GridCell.Tab.1.left" timestamp="1576126349165">
+    <state width="1826" height="339" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1576134829320" />
+    <state width="1826" height="339" key="GridCell.Tab.1.left" timestamp="1576134829319">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1826" height="339" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1576126349165" />
-    <state width="1826" height="339" key="GridCell.Tab.1.right" timestamp="1576126349165">
+    <state width="1826" height="339" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1576134829319" />
+    <state width="1826" height="339" key="GridCell.Tab.1.right" timestamp="1576134829320">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1826" height="339" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1576126349165" />
+    <state width="1826" height="339" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1576134829320" />
     <state x="482" y="187" key="SettingsEditor" timestamp="1575867350779">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -283,10 +292,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="374" y="462" width="302" height="180" key="VCS.ChangelistChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1576118767370" />
-    <state x="588" y="287" width="800" height="531" key="Vcs.Push.Dialog.v2" timestamp="1576121181849">
+    <state x="588" y="287" width="800" height="531" key="Vcs.Push.Dialog.v2" timestamp="1576127546704">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="588" y="287" width="800" height="531" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1576121181849" />
+    <state x="588" y="287" width="800" height="531" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1576127546704" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
